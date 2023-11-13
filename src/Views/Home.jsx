@@ -5,8 +5,6 @@ import { PolicyCard } from "../Components/PolicyCard";
 import { SocialMedia } from "../Components/socialMedia";
 import { FaBirthdayCake } from 'react-icons/fa'
 
-
-
 const Home = () => {
   const newsList = [
     {
