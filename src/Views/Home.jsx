@@ -182,7 +182,7 @@ const Home = () => {
           <div className="flex flex-col justify-center items-center">
             <div>
               <video autoPlay muted loop width="600" className=" rounded-lg">
-                <source src="/vedio/happyhour.mp4" type="video/mp4" />
+                <source src="vedios/happyhour.mp4" type="video/mp4" />
               </video>
             </div>
             <div className="mt-5">
@@ -241,7 +241,7 @@ const Home = () => {
       >
         <div className="bg-primary-theme-one p-6 rounded-[32px] md:w-[648px] lg:h-[593px] h-[352px] w-[343px] flex justify-center items-center m-4 md:ml-10">
           <video autoPlay muted loop height="200" className=" rounded-lg h-[300px] lg:h-[550px]">
-            <source src="/vedio/single.mp4" type="video/mp4" />
+            <source src="vedios/single.mp4" type="video/mp4" />
           </video>
         </div>
         <div
@@ -249,7 +249,7 @@ const Home = () => {
           id="email"
         >
           <video autoPlay muted loop height="200" className=" rounded-lg h-[300px] lg:h-[550px]">
-            <source src="/vedio/two.mp4" type="video/mp4" />
+            <source src="vedios/two.mp4" type="video/mp4" />
           </video>
         </div>
       </section>
