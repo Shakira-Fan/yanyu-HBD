@@ -78,11 +78,11 @@ export default function NewsDialog({
                           {otherImgUrl
                             .map((others,index) => (
                               <div key={index}>
-                                <div>
+                                <div className="flex justify-center">
                                   <img
                                     src={others.imgUrl}
                                     alt="news"
-                                    className="w-[244px] h-[200px] object-cover rounded-2xl"
+                                    className="w-[244px] h-[200px] lg:w-[300px] lg:h-[250px] object-cover rounded-2xl"
                                   />
                                 </div>
                               </div>

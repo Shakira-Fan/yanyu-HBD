@@ -181,7 +181,7 @@ const Home = () => {
         <div className="grid grid-cols-1 gap-x-6 xl:grid-cols-2 md:mx-16 mx-4">
           <div className="flex flex-col justify-center items-center">
             <div>
-              <video autoPlay muted loop width="600" className=" rounded-lg">
+              <video autoPlay muted loop playsInline width="600" className="rounded-lg">
                 <source src="vedios/happyhour.mp4" type="video/mp4" />
               </video>
             </div>
@@ -240,7 +240,7 @@ const Home = () => {
         className=" bg-bg-color-theme-one flex justify-center items-center max-sm:flex-col md:py-3 py-2"
       >
         <div className="bg-primary-theme-one p-6 rounded-[32px] md:w-[648px] lg:h-[593px] h-[352px] w-[343px] flex justify-center items-center m-4 md:ml-10">
-          <video autoPlay muted loop height="200" className=" rounded-lg h-[300px] lg:h-[550px]">
+          <video autoPlay muted loop playsInline className=" rounded-lg h-[300px] lg:h-[550px]">
             <source src="vedios/single.mp4" type="video/mp4" />
           </video>
         </div>
@@ -248,7 +248,7 @@ const Home = () => {
           className="bg-text-primary p-6 md:w-[648px] lg:h-[593px] h-[352px] w-[343px] rounded-[32px] flex justify-center items-center m-4 md:mr-10"
           id="email"
         >
-          <video autoPlay muted loop height="200" className=" rounded-lg h-[300px] lg:h-[550px]">
+          <video autoPlay muted loop playsInline className=" rounded-lg h-[300px] lg:h-[550px]">
             <source src="vedios/two.mp4" type="video/mp4" />
           </video>
         </div>
